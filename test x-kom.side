@@ -1,0 +1,120 @@
+{
+  "id": "e3719a3a-1b43-4a0a-9bd8-036787b09b5e",
+  "version": "2.0",
+  "name": "test x-kom",
+  "url": "https://www.x-kom.pl",
+  "tests": [{
+    "id": "d74f6462-4523-4477-94f1-a6c6c18b461c",
+    "name": "test1",
+    "commands": [{
+      "id": "2351125e-b1ea-422e-ad9a-a57b9e2e4df3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88a47465-cb82-45a3-a338-038ac6a20f1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01586442-beb6-4908-b868-0e1b09f7224c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-suk8z4-0",
+      "targets": [
+        ["css=.sc-suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='laptop acer']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "laptop acer"
+    }, {
+      "id": "cc7c9ae6-f66d-4d2b-891d-b78b197350fe",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.sc-suk8z4-0",
+      "targets": [
+        ["css=.sc-suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='laptop acer']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "60a40562-a2d3-4396-848e-5e553ea210d6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27f6faef-96f9-4794-b561-09800caced56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1s1zksu-0:nth-child(1) .sc-1yu46qn-0 svg",
+      "targets": [
+        ["css=.sc-1s1zksu-0:nth-child(1) .sc-1yu46qn-0 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "48bc0485-1e96-4a49-9b23-e761d161ebd7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf2cb096-f7b0-459b-9333-1ee185cf7e59",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jZRyxt svg",
+      "targets": [
+        ["css=.jZRyxt svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "af31a880-a25e-419c-93d2-a2c0ecbac2e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jZRyxt svg",
+      "targets": [
+        ["css=.jZRyxt svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2a30e3e-413a-4b40-b446-5c4772c3deb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jZRyxt svg",
+      "targets": [
+        ["css=.jZRyxt svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "631f4fc7-057c-4b56-b5e3-04193c5c3eb5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-bxnmbv-0",
+      "targets": [
+        ["css=.sc-bxnmbv-0", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/ul/li/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "05392e08-0b30-4b10-8e7c-0ee012664253",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d74f6462-4523-4477-94f1-a6c6c18b461c"]
+  }],
+  "urls": ["https://www.x-kom.pl/"],
+  "plugins": []
+}
